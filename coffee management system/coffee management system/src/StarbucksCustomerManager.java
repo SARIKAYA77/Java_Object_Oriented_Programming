@@ -1,5 +1,5 @@
 public class StarbucksCustomerManager extends BaseCustomerManager {
-
+    private int customerCoffeeCount;
     private CustomerCheckService customerCheckService;
     public StarbucksCustomerManager(CustomerCheckService customerCheckService) {
         this.customerCheckService = customerCheckService;
@@ -18,5 +18,11 @@ public class StarbucksCustomerManager extends BaseCustomerManager {
 
     }
 
+    @Override
+    public int addCoffee(Customer customer) {
+        super.addCoffee(customer);
+        return 1;
+
+    }
 }
 

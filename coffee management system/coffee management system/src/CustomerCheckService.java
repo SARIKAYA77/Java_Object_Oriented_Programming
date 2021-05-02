@@ -1,3 +1,4 @@
-public interface CustomerCheckService {
+public  interface CustomerCheckService {
     boolean IsFakePerson(Customer customer);
+
 }

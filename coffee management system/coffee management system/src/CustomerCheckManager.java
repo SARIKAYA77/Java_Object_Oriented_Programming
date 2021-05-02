@@ -4,4 +4,6 @@ public class CustomerCheckManager implements CustomerCheckService {
     public boolean IsFakePerson(Customer customer) {
         return true;
     }
+
+
 }
